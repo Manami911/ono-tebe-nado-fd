@@ -11,18 +11,18 @@
     gap: 32px;
 }
 
-.header__links-list-item_no-bullit {
+.links-list-item_no-bullit {
     list-style: none;
 }
 
-.header__link {
+.link {
     color: #000;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.35;
 }
 
-.header__link_active {
+.link_active {
     text-decoration: none;
 }
 
@@ -39,14 +39,18 @@
     height: 100%;
 }
 
-.header__address {
+.address {
     display: flex;
-    justify-self: end;
     flex-direction: column;
     gap: 1px;
     list-style: none;
-    max-width: 240px;
     font-style: normal;
+}
+
+.header__address {
+    justify-self: end;
+    max-width: 240px;
+
 }
 
 .cover {
@@ -113,9 +117,6 @@
 }
 
 .cover__description-text {
-    width: 637px;
-    left: 50px;
-    top: 668px;
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -130,8 +131,6 @@
 .bet-button {
     width: 256px;
     height: 51px;
-    left: 794px;
-    top: 656px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -297,14 +296,8 @@
     padding: 1px 50px 82px;
 } 
 
-.address {
-    display: flex;
-    justify-self: start;
-    flex-direction: column;
-    gap: 1px;
-    list-style: none;
+.footer__address {
     max-width: 264px;
-    font-style: normal;
 }
 
 .footer__menu {
